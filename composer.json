@@ -1,0 +1,24 @@
+{
+    "name": "denismitr/real-domain-validator",
+    "description": "Validator of domain names that uses DNS to verify the existance of a domain",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Mitrofanov",
+            "email": "denis.mitr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denismitr\\Validators\\": "src//"
+        }
+    }
+}

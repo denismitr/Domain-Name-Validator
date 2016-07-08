@@ -1,0 +1,4 @@
+suites:
+  denismitr_suite:
+    namespace: Denismitr\Validators
+    psr4_prefix: Denismitr\Validators
